@@ -90,6 +90,16 @@
       ],
       "imageprofile": "",
       "apiId": "v1"
+    },
+    {
+      "nombre": "hola",
+      "apellidos": "hola",
+      "email": "canelito@gmail.com",
+      "direccion": "comas",
+      "password": "hola",
+      "tipo": "comprador",
+      "apiId": "v1",
+      "id": 6
     }
   ],
   "clothes": [
@@ -103,6 +113,7 @@
       "color": "negro",
       "usuario": 1,
       "imagen": "https://shopthearena.com/cdn/shop/files/N123MP012-Front-Flat.jpg?v=1736490963",
+      "categorias": ["C005"],
       "apiId": "v1"
     },
     {
@@ -115,6 +126,7 @@
       "color": "azul",
       "usuario": 1,
       "imagen": "https://pieers.com/media/catalog/product/cache/334416996b13b45056f516cf8b55981c/p/e/ped03134czz-1.jpg",
+      "categorias": ["C001"],
       "apiId": "v1"
     },
     {
@@ -127,6 +139,7 @@
       "color": "rosa",
       "usuario": 3,
       "imagen": "https://cortefiel.com/on/demandware.static/-/Sites-gc-ctf-master-catalog/default/dw29227c95/images/hi-res/P_644909999D8.jpg",
+      "categorias": ["C002"],
       "apiId": "v1"
     },
     {
@@ -139,6 +152,7 @@
       "color": "blanco",
       "usuario": 3,
       "imagen": "https://media.falabella.com/falabellaPE/19836437_1/w=1500,h=1500,fit=pad",
+      "categorias": ["C003"],
       "apiId": "v1"
     },
     {
@@ -151,6 +165,7 @@
       "color": "beige",
       "usuario": 3,
       "imagen": "https://static.zara.net/assets/public/3c34/15c2/5d1e45b189ed/b571f91e67be/00518252711-e1/00518252711-e1.jpg?ts=1725627810159&w=362&f=auto",
+      "categorias": ["C004"],
       "apiId": "v1"
     },
     {
@@ -163,6 +178,7 @@
       "color": "blanco",
       "usuario": 3,
       "imagen": "https://m.media-amazon.com/images/I/41kkW35Aa7S._AC_SL1200_.jpg",
+      "categorias": ["C007"],
       "apiId": "v1"
     },
     {
@@ -175,6 +191,7 @@
       "color": "gris",
       "usuario": 2,
       "imagen": "https://unsplash.com/es/fotos/camiseta-blanca-con-cuello-redondo-acn5ERAeSb4",
+      "categorias": ["C006"],
       "apiId": "v1"
     },
     {
@@ -187,6 +204,7 @@
       "color": "blanco",
       "usuario": 2,
       "imagen": "https://tu-servidor.com/imagenes/polo-blanco.png",
+      "categorias": ["C005"],
       "apiId": "v1"
     },
     {
@@ -199,6 +217,7 @@
       "color": "verde militar",
       "usuario": 3,
       "imagen": "https://tu-servidor.com/imagenes/pantalon-cargo.png",
+      "categorias": ["C001"],
       "apiId": "v1"
     },
     {
@@ -211,6 +230,7 @@
       "color": "rojo",
       "usuario": 3,
       "imagen": "https://tu-servidor.com/imagenes/vestido-fiesta.png",
+      "categorias": ["C002"],
       "apiId": "v1"
     },
     {
@@ -223,6 +243,7 @@
       "color": "beige",
       "usuario": 5,
       "imagen": "https://m.media-amazon.com/images/I/61ev4CQgJHL._AC_UY1000_.jpg",
+      "categorias": ["C009"],
       "apiId": "v1"
     },
     {
@@ -235,6 +256,7 @@
       "color": "azul marino",
       "usuario": 5,
       "imagen": "https://i.ebayimg.com/thumbs/images/g/JFsAAOSwNn9nnqvE/s-l1200.jpg",
+      "categorias": [],
       "apiId": "v1"
     },
     {
@@ -247,6 +269,7 @@
       "color": "negro",
       "usuario": 1,
       "imagen": "https://i.ebayimg.com/thumbs/images/g/NnkAAeSwt5Jn841y/s-l1200.jpg",
+      "categorias": ["C006"],
       "apiId": "v1"
     },
     {
@@ -259,6 +282,7 @@
       "color": "café",
       "usuario": 2,
       "imagen": "https://i.ebayimg.com/thumbs/images/g/yuUAAeSwDTNoEZf-/s-l1200.jpg",
+      "categorias": ["C003"],
       "apiId": "v1"
     },
     {
@@ -271,7 +295,58 @@
       "color": "rojo",
       "usuario": 3,
       "imagen": "https://i.ebayimg.com/thumbs/images/g/sp4AAOSwg2RkpCcB/s-l1200.jpg",
+      "categorias": ["C007"],
       "apiId": "v1"
     }
+  ],
+  "categories":
+
+  [
+    {
+      "id": "C001",
+      "nombre": "pantalones",
+      "imagen": "https://www.squeeze.pe/assets/upload/producto/5081143887_2.jpg"
+    },
+    {
+      "id": "C002",
+      "nombre": "vestidos",
+      "imagen": "https://m.media-amazon.com/images/I/617VcmGhnHL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "C003",
+      "nombre": "zapatillas",
+      "imagen": "https://m.media-amazon.com/images/I/71fXr16ZvvL._AC_SL1100_.jpg"
+    },
+    {
+      "id": "C004",
+      "nombre": "gabardinas",
+      "imagen": "https://www.sulmarizala.com/wp-content/uploads/2022/03/SA-002-6-scaled.jpg"
+    },
+    {
+      "id": "C005",
+      "nombre": "polos",
+      "imagen": "https://i.ebayimg.com/images/g/ZC8AAOSw0aZlnWdC/s-l400.jpg"
+    },
+    {
+      "id": "C006",
+      "nombre": "chaquetas",
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/Au0AAOSwLHxm8z9j/s-l1200.jpg"
+    },
+    {
+      "id": "C007",
+      "nombre": "camisas",
+      "imagen": "https://www.prolaboral.com/182470-home_default/camisa-m-c-mujer-velilla-405010.jpg"
+    },
+    {
+      "id": "C008",
+      "nombre": "accesorios",
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/h4wAAOSwj1toAU0f/s-l1200.jpg"
+    },
+    {
+      "id": "C009",
+      "nombre": "suéteres",
+      "imagen": "https://m.media-amazon.com/images/I/61XxKTWKMWL._AC_UY1000_.jpg"
+    }
   ]
+
 }
