@@ -21,7 +21,22 @@ Object.keys(db).forEach((key) => {
    const item = db[key].find(i => String(i.id) === req.params.id);
     item ? res.json(item) : res.sendStatus(404);
   });
+//Get by Email
+// Buscar perfil por email
+app.get("/profiles", (req, res) => {
+  const email = req.query.email;
+  if (email) {
+    const result = db.profiles.find(p => p.email === email);
+    if (result) return res.json(result);
+    return res.status(404).json({ message: "Perfil no encontrado" });
+  }
 
+  // Si no hay query param, devuelve todos como hasta ahora
+  res.json(db.profiles);
+});
+
+
+  
   // POST
   app.post(`/${key}`, (req, res) => {
     const nuevo = req.body;
