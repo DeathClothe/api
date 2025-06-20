@@ -1,4 +1,4 @@
-const express = require('express');
+  const express = require('express');
 const fs = require('fs');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -18,7 +18,7 @@ Object.keys(db).forEach((key) => {
 
   // GET BY ID
   app.get(`/${key}/:id`, (req, res) => {
-    const item = db[key].find(i => i.id == req.params.id);
+   const item = db[key].find(i => String(i.id) === req.params.id);
     item ? res.json(item) : res.sendStatus(404);
   });
 
